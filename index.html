@@ -2,16 +2,22 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"content="height=device-height, initial-scale=1.0">
     <title>Search first unique character</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <section class="data center">
         <h2>We search first unique character in the text</h2>
-        <div class=""><a href="about-searching.html">more details about the searching algorithm...</a></div>
+        <div><a href="about-searching.html">more details about the searching algorithm...</a></div>
         <textarea id="text" name="text" class="text font" placeholder="Insert text here"></textarea>
-        <button onclick="" class="button">Search!</button>
+        <button id="button" class="button">Search!</button>
+        <div id="result"></div>
     </section>
+    <script type="module">
+        import searchFirstUniqChar from './script.js';
+        document.getElementById('button').addEventListener('click', searchFirstUniqChar);
+    </script>
 </body>
 </html>
