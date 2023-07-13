@@ -1,3 +1,9 @@
+
+.font {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
+}
+
 .center {
     margin: auto;
     width: 50%;
@@ -13,9 +19,8 @@
     width: 90%;
     height: 300px;
     display: inline-block;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.1em;
     padding: 10px;
+    margin-top: 10px;
 }
 
 .button {
